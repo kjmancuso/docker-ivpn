@@ -8,6 +8,7 @@ RUN apt-get update && \
                        iptables \
                        iproute2 \
                        iputils-ping \
+                       resolvconf \
                        wireguard
 
 RUN echo "net.ipv4.ip_forward = 1" >> /etc/sysctl.conf
