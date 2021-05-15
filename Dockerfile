@@ -13,6 +13,7 @@ RUN apt-get update && \
                        iptables \
                        iproute2 \
                        iputils-ping \
+                       jq \
                        resolvconf \
                        wireguard
 
